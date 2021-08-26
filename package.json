@@ -1,0 +1,23 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "The Odin Project Restaraunt Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmonomania/restaurant.git"
+  },
+  "author": "Daniel OBrien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmonomania/restaurant/issues"
+  },
+  "homepage": "https://github.com/dmonomania/restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
