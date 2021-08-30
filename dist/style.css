@@ -1,0 +1,65 @@
+body{
+    font-family: 'PT Mono', monospace;
+    margin:0;
+    box-sizing: border-box;
+    background-color: #F7BF50;
+}
+
+#content{
+    max-width: 800px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+}
+#header-logo{
+    max-width: 90%;
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
+    
+    
+    }
+
+#tag-line {
+    padding: 0px 10px;
+}
+#tag-line h1{
+    padding-top: 15px;
+    font-size: clamp(100%, 1.4rem + 2vw, 48px);
+    color: #271801;
+    text-align: center;
+    word-spacing: -7px;
+}
+
+#menu-buttons ul{
+ list-style-type: none;
+ margin: 0;
+ padding: 0 15px;
+ display: flex;
+ justify-content: space-betweens;
+}
+
+#menu-buttons {
+    
+}
+
+.nav-links a{
+    font-size: 1.4rem;
+    padding: 5px 15px;
+    text-decoration: none;
+    color:#271801;
+    border-bottom: 1px solid black;
+}
+
+.nav-links :hover {
+    background-color: #FFDC52;
+}
+
+.nav-links :active {
+    background-color: #AA8337;
+}
